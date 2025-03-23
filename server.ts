@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
-import userRoutes from './routes/userRoutes';
+import userRoutes from './src/routes/userRoutes';
 import https from 'https';
 import fs from 'fs';
 
